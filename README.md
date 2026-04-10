@@ -1,6 +1,6 @@
 # Quality Assurance Artifacts
 
-This section of the **jenolva-tech-lab** portfolio showcases my Quality Assurance work, emphasizing test design, defect analysis, and alignment with business and technical requirements. These artifacts demonstrate how I ensure quality across the SDLC through structured testing and clear communication.
+This section of the **jenolva-tech-lab** portfolio showcases my Quality Assurance work, emphasizing test design, defect analysis, and alignment with business and technical requirements. These artifacts demonstrate how I ensure quality across the SDLC through structured testing and clear communication and the strategic use of AI to accelerate delivery.
 
 ---
 

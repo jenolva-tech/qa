@@ -19,7 +19,7 @@ Well-structured test documentation including:
 - Preconditions and test data
 - Coverage aligned with user story acceptance criteria
 
-### 3. Test Workbook ([README.MD](rail-leasing/epics/contract-management/test-workbook/README.MD))
+### 3. Test Workbook
 
 #### A. Test Suite
 - Full set of test cases covering positive, negative, and edge case scenarios

@@ -6,43 +6,60 @@ This section of the **jenolva-tech-lab** portfolio showcases my Quality Assuranc
 
 ## 📌 What’s Included
 
-### 1. Test Cases & Test Scenarios
-Well-structured test documentation including:
-- Positive and negative scenarios
-- Preconditions and test data
-- Expected results
-- Coverage aligned with acceptance criteria
-
-### 2. Defect Reports
-Realistic defect examples with:
-- Steps to reproduce
-- Expected vs actual behavior
-- Severity and priority
-- Linked user stories (when applicable)
-
-### 3. Test Strategy & Approach
+### 1. Test Plan
 Documents outlining:
 - Scope and objectives
 - Test levels and types
 - Tools and environments
 - Entry/exit criteria
 
-### 4. Traceability & Coverage
-Artifacts showing alignment between:
-- Requirements
-- User stories
-- Test cases
-- Defects
+### 2. Features
+Well-structured test documentation including:
+- Positive and negative scenarios
+- Preconditions and test data
+- Coverage aligned with user story acceptance criteria
 
-### 5. Jira QA Artifacts (Screenshots)
-Includes:
-- Defect tickets
-- Test-related subtasks
-- Board and backlog views
-- Workflow transitions
+### 3. Test Workbook ([README.MD](rail-leasing/epics/contract-management/test-workbook/README.MD))
+
+#### A. Test Suite
+- Full set of test cases covering positive, negative, and edge case scenarios
+- Includes test case ID, objective, preconditions, test data, steps, and expected results
+
+#### B. Test Execution
+- Tracks tester, execution date, and status (Passed, Failed, Blocked, In Progress, Not Executed)
+- Includes comments and linked defects
+
+#### C. Traceability Matrix
+- Links requirements → scenarios → test cases → execution status
+- Demonstrates full coverage with no untested scenarios
+
+#### D. Defect Log
+- Captures defect ID, summary, steps to reproduce, expected vs actual result
+- Includes severity, priority, status, and traceability back to the originating test case
+
 
 ---
 
 ## 📁 Folder Structure
 
-qa/ │ ├── test-cases.md ├── defects.md ├── test-strategy.md └── traceability/ ├── coverage-matrix.xlsx ├── requirements-to-tests.md
+```text
+qa/
+├── README.md
+└── rail-leasing/
+    └── epics/
+        └── contract-management/
+            ├── contract-management-test-plan.md
+            ├── rail-004-View a Contract Profile Record.feature
+            ├── features/
+            │   ├── rail-001-View Contract Profile Search and Results.feature
+            │   ├── rail-002-Search Contract Profile Record(s).feature
+            │   ├── rail-003-Add a new Contract Profile Record.feature
+            │   ├── rail-004-View a Contract Profile Record.feature
+            │   ├── rail-005-Update an existing Contract Profile Record (Details Page).feature
+            │   ├── rail-006-View the Billing Information of an Assignment.feature
+            │   ├── rail-007-Add a new Billing Information record for an Assignment.feature
+            │   └── rail-008-Update an existing Billing Information record of an Assignment.feature
+            └── test-workbook/
+                ├── Contract Management Test Workbook.xlsx
+                └── README.MD
+```
